@@ -30,7 +30,7 @@ CoRR, 2023
 **Structural generalization is hard for sequence-to-sequence models** 
 [[paper]](https://aclanthology.org/2022.emnlp-main.337/)
 
-*Yuekun Yao and Alexander Koller*
+*Yuekun Yao, Alexander Koller*
 
 Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
 
