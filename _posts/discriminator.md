@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: post
 title: "Predicting generalization performance with correctness discriminators"
 authors:
 - name: Yuekun Yao
   affiliation: 1
+  homepage: https://ykyaol7.github.io/
 - name: Alexander Koller
   homepage: https://www.coli.uni-saarland.de/~koller/
   affiliation: 1
