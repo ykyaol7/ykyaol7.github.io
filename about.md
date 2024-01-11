@@ -16,12 +16,21 @@ My research interests focus on structured prediction tasks in natural language u
 
 ### 2023
 
+**Predicting generalization performance with correctness discriminators** 
+[[paper]](https://arxiv.org/abs/2311.09422)
+
+*Yuekun Yao, Alexander Koller*
+
+CoRR, 2023
+
+
+
 **SLOG: A Structural Generalization Benchmark for Semantic Parsing**
-[[paper]](https://arxiv.org/pdf/2310.15040.pdf)
+[[paper]](https://aclanthology.org/2023.emnlp-main.194/)
 
 *Bingzhi Li, Lucia Donatelli, Alexander Koller, Tal Linzen, Yuekun Yao, Najoung Kim*
 
-CoRR, 2023
+Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
 
 
 
