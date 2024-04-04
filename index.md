@@ -16,8 +16,9 @@ My research interests focus on structured prediction tasks in natural language u
 ### 2024
 
 **Simple and effective data augmentation for compositional generalization**
-
 [[paper]](https://arxiv.org/abs/2401.09815)
+
+*Yuekun Yao, Alexander Koller*
 
 To appear in NAACL 2024
 
