@@ -15,7 +15,7 @@ paper: https://github.com/ykyaol7/ykyaol7.github.io/tree/master/static/images/di
 ---
 
 <center>
-    <img src="../static/images/discriminator/intro.png" width="90%" />
+    <img src="../../static/images/discriminator/intro.png" width="90%" />
 </center>
 
 
