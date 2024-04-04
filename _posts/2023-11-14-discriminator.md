@@ -44,7 +44,7 @@ The core of our method is a "correctness discriminator model." This model is cru
 A key technical challenge is to obtain negative training instances for the discriminator, because the trained parser makes correct predictions on most of the instances on which it was trained.
 
 <center>
-    <img src="../static/images/discriminator/data_examples.png" width="40%" />
+    <img src="../../static/images/discriminator/data_examples.png" width="40%" />
 </center>
 
 
@@ -55,7 +55,7 @@ A key technical challenge is to obtain negative training instances for the discr
 #### Predicting Accuracy Bounds
 
 <center>
-    <img src="../static/images/discriminator/method_ensemble.png" width="40%" />
+    <img src="../../static/images/discriminator/method_ensemble.png" width="40%" />
 </center>
 We predict upper and lower bounds for the test accuracy by parsing all test instances with the trained parser.
 We then run an ensemble of discriminators on the prediction for each test instance.
@@ -76,7 +76,7 @@ Although this is not the main goal of our work, our method also compares favorab
 
 
 <center>
-    <img src="../static/images/discriminator/results.png" width="90%" />
+    <img src="../../static/images/discriminator/results.png" width="90%" />
 </center>
 
 
@@ -87,7 +87,7 @@ The accuracy of the bound predictors is robust to the choice of sample from the 
 
 
 <center>
-    <img src="../static/images/discriminator/cogs-curves.png" width="40%" />
+    <img src="../../static/images/discriminator/cogs-curves.png" width="40%" />
     &nbsp; &nbsp;
-    <img src="../static/images/discriminator/top-curve.png" width="40%" />
+    <img src="../../static/images/discriminator/top-curve.png" width="40%" />
 </center>
