@@ -5,7 +5,7 @@ title: About
 
 ## About me
 
-Hi! I am Yuekun Yao, a PhD student in computational linguistics at Saarland University working with [Alexander Koller](https://www.coli.uni-saarland.de/~koller/).
+Hi! I am Yuekun Yao, a Ph.D. student in computational linguistics at Saarland University working with [Alexander Koller](https://www.coli.uni-saarland.de/~koller/).
 
 My research interests focus on structured prediction tasks in natural language understanding, including syntactic parsing, semantic role labeling and semantic parsing. Currently I am especially interested in using sequence-to-sequence models to learn compositional generalization, a key ability that humans use to generate infinate natural language sentences from finite grammar structures.
 
