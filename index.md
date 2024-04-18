@@ -77,5 +77,5 @@ IWSLT 2020
 
 ## Contact me
 
-[ykyao.cs@gmail.com](mailto:ykyao.cs@gmail.com)
+ykyao [dot] cs [at] gmail [dot] com
 
