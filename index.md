@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Yuekun Yao
 ---
 
 ## About me
