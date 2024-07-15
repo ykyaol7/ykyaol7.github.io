@@ -9,7 +9,8 @@ Hi! I am Yuekun Yao, a Ph.D. student in [Department of Language Science and Tech
 
 <!--My research interests focus on structured prediction tasks in natural language understanding, including syntactic parsing, semantic role labeling and semantic parsing. Currently I am especially interested in using sequence-to-sequence models to learn compositional generalization, a key ability that humans use to generate infinate natural language sentences from finite grammar structures.-->
 
-The main research question I am interested in is *How does NLP models generalize to unfamiliar data and how can we improve it?* I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. I am also interested in **trustworthiness** of NLP models to detect their generalization errors when deployed in real-world settings. 
+The main research question I am interested in is **How does NLP models generalize to unfamiliar data and how can we improve it?** I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. I am also interested in **trustworthiness** of NLP models to detect their generalization errors when deployed in real-world settings. 
+
 My work aims to both understand model behaviours and develop more effective and reliable NLP models through the following research questions.
 
 - Can NLP models perform human-like generalization, and why? [[1]](https://aclanthology.org/2022.emnlp-main.337/) Does this also apply to large language models? [[2]](https://aclanthology.org/2023.emnlp-main.194/)
