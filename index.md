@@ -5,16 +5,16 @@ title: Yuekun Yao
 
 ## About me
 
-Hi! I am Yuekun Yao, a Ph.D. student in computational linguistics at Saarland University working with [Alexander Koller](https://www.coli.uni-saarland.de/~koller/).
+Hi! I am Yuekun Yao, a Ph.D. student in [Department of Language Science and Technology](https://www.uni-saarland.de/en/department/lst.html) at [Saarland University](https://www.uni-saarland.de/en/home.html) working with Prof. [Alexander Koller](https://www.coli.uni-saarland.de/~koller/). I am a part of [Computational Linguistic Group](https://www.coli.uni-saarland.de/groups/AK/). In the past, I got my MSc degree in artificial intelligence at the University of Edinburgh. Before that, I did my BS in computer science at East China Normal University. 
 
 <!--My research interests focus on structured prediction tasks in natural language understanding, including syntactic parsing, semantic role labeling and semantic parsing. Currently I am especially interested in using sequence-to-sequence models to learn compositional generalization, a key ability that humans use to generate infinate natural language sentences from finite grammar structures.-->
 
-The main research question I am interested in is *How does NLP models generalize to unfamiliar data and how can we improve it?* I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. I am also interested in **trustworthiness** of NLP models to detect their errors when deploying them to the wild. 
+The main research question I am interested in is *How does NLP models generalize to unfamiliar data and how can we improve it?* I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. I am also interested in **trustworthiness** of NLP models to detect their generalization errors when deployed in real-world settings. 
 My work aims to both understand model behaviours and develop more effective and reliable NLP models through the following research questions.
 
-- Can NLP models perform human-like generalization, and why? [[1]](https://aclanthology.org/2022.emnlp-main.337/) How about LLMs? [[2]](https://aclanthology.org/2023.emnlp-main.194/)
+- Can NLP models perform human-like generalization, and why? [[1]](https://aclanthology.org/2022.emnlp-main.337/) Does this also apply to large language models? [[2]](https://aclanthology.org/2023.emnlp-main.194/)
 - How to improve models' compositional generalization ability with general-purpose models (seq2seq)? [[3]](https://arxiv.org/abs/2401.09815)
-- How to build trustworthy models that generalize reliably? Can we train an one model (discriminator) to judge the outputs of another model (parser)? [[4]](https://arxiv.org/abs/2311.09422)
+- How to build trustworthy models that generalize reliably? Can we train one model (discriminator) to judge the outputs of another model (parser)? [[4]](https://arxiv.org/abs/2311.09422)
 
 
 
