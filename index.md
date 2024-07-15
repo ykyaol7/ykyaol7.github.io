@@ -65,7 +65,7 @@ EMNLP 2022
 ### 2020
 
 **Dynamic masking for improved stability in online spoken language translation**
-[[paper]](https://aclanthology.org/2022.emnlp-main.337/)
+[[paper]](https://aclanthology.org/2020.amta-research.12.pdf)
 
 *Yuekun Yao, Barry Haddow*
 
