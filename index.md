@@ -24,7 +24,7 @@ My work aims to both understand model behaviours and develop more effective and 
 ### 2024
 
 **Simple and effective data augmentation for compositional generalization**
-[[paper]](https://arxiv.org/abs/2401.09815)[[code]](https://github.com/coli-saar/data-augmentation-compgen)
+[[paper]](https://aclanthology.org/2024.naacl-long.25/)[[code]](https://github.com/coli-saar/data-augmentation-compgen)
 
 *Yuekun Yao, Alexander Koller*
 
