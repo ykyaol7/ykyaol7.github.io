@@ -23,6 +23,15 @@ My work aims to both understand model behaviours and develop more effective and 
 
 ### 2024
 
+**Predicting generalization performance with correctness discriminators** 
+[[paper]](https://arxiv.org/abs/2311.09422)
+
+*Yuekun Yao, Alexander Koller*
+
+EMNLP 2024 Findings
+
+
+
 **Simple and effective data augmentation for compositional generalization**
 [[paper]](https://aclanthology.org/2024.naacl-long.25/)[[code]](https://github.com/coli-saar/data-augmentation-compgen)
 
@@ -33,15 +42,6 @@ NAACL 2024
 <br>
 
 ### 2023
-
-**Predicting generalization performance with correctness discriminators** 
-[[paper]](https://arxiv.org/abs/2311.09422)
-
-*Yuekun Yao, Alexander Koller*
-
-CoRR, 2023, positively reviewed at ARR.
-
-<br>
 
 **SLOG: A Structural Generalization Benchmark for Semantic Parsing**
 [[paper]](https://aclanthology.org/2023.emnlp-main.194/) [[code]](https://github.com/bingzhilee/SLOG)
