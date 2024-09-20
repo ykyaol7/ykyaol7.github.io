@@ -30,7 +30,7 @@ My work aims to both understand model behaviours and develop more effective and 
 
 EMNLP 2024 Findings
 
-
+<br>
 
 **Simple and effective data augmentation for compositional generalization**
 [[paper]](https://aclanthology.org/2024.naacl-long.25/)[[code]](https://github.com/coli-saar/data-augmentation-compgen)
