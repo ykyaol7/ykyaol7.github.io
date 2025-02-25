@@ -1,10 +1,7 @@
 ---
 layout: plain
-title: "Reasoning with LLMs (UdS; Summer25)"
+title: "Reasoning with LLMs (UdS; Summer25/26)"
 ---
-
-
-## Reasoning with Large Language Models (UdS; Summer25)
 
 ### Course Description
 
@@ -43,13 +40,12 @@ Below is the **schedule for the course**. The readings are **subject to change**
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Seminar Schedule</title>
+    <title>Seminar Table</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="container mt-4">
-    <h2 class="mb-3">Seminar Schedule</h2>
     <table class="table table-striped table-bordered">
         <thead class="table-dark">
             <tr>
