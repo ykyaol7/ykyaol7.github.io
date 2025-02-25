@@ -18,7 +18,7 @@ This course assumes a solid background in NLP/ML and current language models.
 
 ## Schedule/Reading List
 
-
+Below is the schedule for the course. The readings are subject to change.
 
 | Topic        | Date | Reading | Discussion Leader |
 |--------------|------|---------|-------------------|
@@ -26,33 +26,4 @@ This course assumes a solid background in NLP/ML and current language models.
 | Introduction | TBD  | None    | Yuekun            |
 | (TBD)        | TBD  | TBD     | TBD               |
 | (TBD)        | TBD  | TBD     | TBD               |
-
-
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
-
-## Resources
-
-|---
-| Default aligned | Left aligned | Center aligned | Right aligned
-|-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
-|---
-| Second body
-| 2 line
-|===
-| Footer row
 
