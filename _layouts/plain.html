@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  </head>
+
+  <body>
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+  </body>
+</html>
