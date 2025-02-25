@@ -18,13 +18,16 @@ This course assumes a solid background in NLP/ML and current language models.
 
 ## Schedule/Reading List
 
-| **Topic**    | Date | Reading |      | Discussion Leader |
-| ------------ | ---- | ------- | ---- | ----------------- |
-| Introduction |      | None    |      | Yuekun            |
-| Introduction |      | None    |      | Yuekun            |
-|              |      |         |      |                   |
-|              |      |         |      |                   |
-|              |      |         |      |                   |
-|              |      |         |      |                   |
-|              |      |         |      |                   |
+
+
+| **Topic**    | Date | Reading | Discussion Leader |
+| ------------ | ---- | ------- | ----------------- |
+| Introduction |      | None    | Yuekun            |
+| Introduction |      | None    | Yuekun            |
+|              |      |         |                   |
+|              |      |         |                   |
+|              |      |         |                   |
+|              |      |         |                   |
+|              |      |         |                   |
+
 
