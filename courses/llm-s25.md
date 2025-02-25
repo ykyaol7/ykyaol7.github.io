@@ -13,12 +13,15 @@ a wide range of human-like tasks, from translation to complex problem-solving.
 However, reasoning—the ability to logically infer, plan, 
 and generalize—remains a fundamental challenge that distinguishes them 
 from human intelligence. While techniques like Chain-of-Thought prompting
-and specialized training methods have improved structured reasoning, 
-the extent of LLMs' true reasoning abilities is still uncertain. 
-In this seminar, we will explore recent advancements in LLM reasoning, 
-critically examine their strengths and limitations, 
-and discuss the challenges in moving beyond pattern recognition toward 
-more robust, human-like reasoning.
+and specialized training methods have significantly improved reasoning, 
+the question of whether they can truly replicate human-like reasoning 
+and how to approach it remains open 
+In this seminar, we will explore recent advancements in reasoning with LLMs,
+including techniques for improving their performance, 
+analyses of how these models reason, and discussions on how to move
+beyond current approaches.
+
+
 
 ### Prerequisites
 
