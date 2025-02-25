@@ -1,4 +1,4 @@
-# Reasoning with Large Language Models (UdS; Summer25)
+Reasoning with Large Language Models (UdS; Summer25)
 
 ## Description
 
@@ -27,4 +27,32 @@ This course assumes a solid background in NLP/ML and current language models.
 | (TBD)        | TBD  | TBD     | TBD               |
 | (TBD)        | TBD  | TBD     | TBD               |
 
+
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
+
+
+## Resources
+
+|---
+| Default aligned | Left aligned | Center aligned | Right aligned
+|-|:-|:-:|-:
+| First body part | Second cell | Third cell | fourth cell
+| Second line |foo | **strong** | baz
+| Third line |quux | baz | bar
+|---
+| Second body
+| 2 line
+|===
+| Footer row
 
