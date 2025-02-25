@@ -20,11 +20,11 @@ This course assumes a solid background in NLP/ML and current language models.
 
 
 
-| Topic    | Date | Reading | Discussion Leader |
-| -------- | ---- | ------- | ----------------- |
+| Topic        | Date | Reading | Discussion Leader |
+|--------------|------|---------|-------------------|
 | Introduction | TBD  | None    | Yuekun            |
 | Introduction | TBD  | None    | Yuekun            |
-| (TBD)    | TBD  | TBD     | TBD               |
-| (TBD)    | TBD  | TBD     | TBD               |
+| (TBD)        | TBD  | TBD     | TBD               |
+| (TBD)        | TBD  | TBD     | TBD               |
 
 
