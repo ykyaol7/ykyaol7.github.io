@@ -1,3 +1,8 @@
+---
+layout: page
+title: Reasoning with Large Language Models (UdS; Summer25)
+---
+
 # Reasoning with Large Language Models (UdS; Summer25)
 
 ## Description
