@@ -99,7 +99,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2201.11903" target="_blank">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2211.12588" target="_blank">Program of Thoughts Prompting</a>
+          <a href="https://arxiv.org/abs/2211.12588" target="_blank">Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks</a>
         </td>
         <td>TBD</td>
       </tr>
@@ -109,7 +109,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2203.11171" target="_blank">Self-Consistency Improves Chain of Thought Reasoning in Language Models</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2305.10601" target="_blank">Tree of Thoughts</a>
+          <a href="https://arxiv.org/abs/2305.10601" target="_blank">Tree of Thoughts: Deliberate Problem Solving with Large Language Models</a>
         </td>
         <td>TBD</td>
       </tr>
@@ -119,17 +119,17 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2303.17651" target="_blank">Self-Refine: Iterative Refinement with Self-Feedback</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2310.01798" target="_blank">LLMs Cannot Self-Correct Reasoning Yet</a>
+          <a href="https://arxiv.org/abs/2310.01798" target="_blank">Large Language Models Cannot Self-Correct Reasoning Yet</a>
         </td>
         <td>TBD</td>
       </tr>
       <tr>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2205.10625" target="_blank">Least-to-Most Prompting Enables Complex Reasoning</a>
+          <a href="https://arxiv.org/abs/2205.10625" target="_blank">Least-to-Most Prompting Enables Complex Reasoning in Large Language Models</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2209.15003" target="_blank">Compositional Semantic Parsing</a>
+          <a href="https://arxiv.org/abs/2209.15003" target="_blank">Compositional Semantic Parsing with Large Language Models</a>
         </td>
         <td>TBD</td>
       </tr>
@@ -153,7 +153,7 @@ Below is the schedule for the course. The readings are subject to change.
         <td rowspan="2">Post-train</td>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2112.00114" target="_blank">Show Your Work: Scratchpads for Intermediate Computation</a>
+          <a href="https://arxiv.org/abs/2112.00114" target="_blank">Show Your Work: Scratchpads for Intermediate Computation with Language Models</a>
         </td>
         <td></td>
         <td>TBD</td>
@@ -164,8 +164,8 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2203.14465" target="_blank">STaR: Bootstrapping Reasoning With Reasoning</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2501.04519" target="_blank">rStar-Math</a><br>
-          <a href="https://arxiv.org/abs/2403.09629" target="_blank">Quiet-STaR</a>
+          <a href="https://arxiv.org/abs/2501.04519" target="_blank">rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking</a><br>
+          <a href="https://arxiv.org/abs/2403.09629" target="_blank">Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking</a>
         </td>
         <td>TBD</td>
       </tr>
@@ -173,20 +173,20 @@ Below is the schedule for the course. The readings are subject to change.
         <td rowspan="2">Test-time Scaling</td>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2501.12948" target="_blank">DeepSeek-R1</a>
+          <a href="https://arxiv.org/abs/2501.12948" target="_blank">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2411.15124" target="_blank">Tulu 3 (Section 6)</a>
+          <a href="https://arxiv.org/abs/2411.15124" target="_blank">Tulu 3: Pushing Frontiers in Open Language Model Post-Training (Section 6)</a>
         </td>
         <td>TBD</td>
       </tr>
       <tr>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2501.19393" target="_blank">s1: Simple Test-time Scaling</a>
+          <a href="https://arxiv.org/abs/2501.19393" target="_blank">s1: Simple test-time scaling</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2501.17161v1" target="_blank">SFT Memorizes, RL Generalizes</a>
+          <a href="https://arxiv.org/abs/2501.17161v1" target="_blank">SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training</a>
         </td>
         <td>TBD</td>
       </tr>
@@ -194,7 +194,7 @@ Below is the schedule for the course. The readings are subject to change.
         <td rowspan="2">Analysis</td>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2304.03843" target="_blank">Why Think Step by Step?</a>
+          <a href="https://arxiv.org/abs/2304.03843" target="_blank">Why think step by step? Reasoning emerges from the locality of experience</a>
         </td>
         <td></td>
         <td>TBD</td>
@@ -202,35 +202,36 @@ Below is the schedule for the course. The readings are subject to change.
       <tr>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2307.02477" target="_blank">Reasoning or Reciting?</a>
+          <a href="https://arxiv.org/abs/2307.02477" target="_blank">Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks</a>
         </td>
         <td></td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td rowspan="2">Limitations & Beyond</td>
+        <td rowspan="2">Other directions</td>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2402.16837" target="_blank">Do LLMs Latently Perform Multi-Hop Reasoning?</a>
+          <a href="https://arxiv.org/abs/2402.16837" target="_blank">Do Large Language Models Latently Perform Multi-Hop Reasoning?</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2405.15071" target="_blank">Grokking of Implicit Reasoning</a>
+          <a href="https://arxiv.org/abs/2405.15071" target="_blank">Grokking of Implicit Reasoning in Transformers: A Mechanistic Journey to the Edge of Generalization</a>
         </td>
         <td>TBD</td>
       </tr>
       <tr>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2412.06769" target="_blank">Training LLMs to Reason in a Continuous Latent Space</a>
+          <a href="https://arxiv.org/abs/2412.06769" target="_blank">Training Large Language Models to Reason in a Continuous Latent Space</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2405.14838" target="_blank">From Explicit CoT to Implicit CoT</a>
+          <a href="https://arxiv.org/abs/2405.14838" target="_blank">From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step</a>
         </td>
         <td>TBD</td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
 
