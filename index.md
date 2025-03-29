@@ -5,9 +5,9 @@ title: Yuekun Yao
 
 ## About me
 
-  <img src="/Users/yuekunyao/Saarland/ykyaol7.github.io/static/images/photo.jpg" 
+  <img src="https://raw.githubusercontent.com/ykyaol7/ykyaol7.github.io/master/static/images/photo.jpg" 
        alt="photo" 
-       style="float: right; margin-left: 20px; zoom: 100%;" />
+       style="float: right; margin-left: 20px; zoom: 20%;" />
 
 Hi! I am Yuekun Yao, a Ph.D. student in [Department of Language Science and Technology](https://www.uni-saarland.de/en/department/lst.html) at [Saarland University](https://www.uni-saarland.de/en/home.html) working with Prof. [Alexander Koller](https://www.coli.uni-saarland.de/~koller/). I am a part of [Computational Linguistic Group](https://www.coli.uni-saarland.de/groups/AK/). In the past, I got my MSc degree in artificial intelligence at the University of Edinburgh. Before that, I did my BS in computer science at East China Normal University. 
 
