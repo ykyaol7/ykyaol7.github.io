@@ -46,7 +46,7 @@ Each student will take the lead for one session during the semester. As session 
 - **Raising discussion points**: Highlight the paper’s strengths, limitations, potential impact, and what it leaves open for future work.
 - **Engaging with the discussion**: Be ready to answer questions.  You don’t need to have all the answers, but you should know the paper well.
 
-Each audience is also expected to be deeply engaged into the discussion. You should come to each session with some interesting questions or comments to contribute.
+All participants are also expected to engage actively in the discussion. You should come to each session with some interesting questions or comments to contribute.
 
 If you’d like to propose an alternative reading that fits the week’s theme, reach out early. Substitutions are welcome as long as they align with the topic and we have time to read them.
 
