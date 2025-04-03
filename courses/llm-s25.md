@@ -10,8 +10,8 @@ title: "Reasoning with LLMs (UdS; Summer25/26)"
 
 Large Language Models (LLMs) have become powerful tools capable of performing
 a wide range of human-like tasks, from translation to complex problem-solving.
-However, reasoning—the ability to logically infer, plan, 
-and generalize—remains a fundamental challenge that distinguishes them 
+However, reasoning, the ability to logically infer, plan, 
+and generalize, remains a fundamental challenge that distinguishes them 
 from human intelligence. While techniques like Chain-of-Thought prompting
 and specialized training methods have significantly improved reasoning, 
 the question of whether they can truly replicate human-like reasoning 
@@ -42,17 +42,61 @@ This seminar is built around group discussion of recent research. Each week, we�
 
 Each student will take the lead for one session during the semester. As session leader, you’ll guide our discussion of the assigned paper and help the group unpack its contributions, assumptions, and implications. Your responsibilities include:
 
-- **Presenting the paper**: What is the paper’s goal? How does it approach the problem? What are the main results?
+- **Presenting the paper**: What is the paper’s goal? How does it approach the problem? What are the main contributions? Making slides is welcome but entirely optional.
 - **Raising discussion points**: Highlight the paper’s strengths, limitations, potential impact, and what it leaves open for future work.
 - **Engaging with the discussion**: Be ready to answer questions.  You don’t need to have all the answers, but you should know the paper well.
 
-Making slides is welcome but entirely optional.
+Each audience is also expected to be deeply engaged into the discussion. You should come to each session with some interesting questions or comments to contribute.
 
-If you’d like to propose an alternative reading that fits the week’s theme, reach out early. Substitutions are welcome as long as they align with the topic and we have time to review them.
+If you’d like to propose an alternative reading that fits the week’s theme, reach out early. Substitutions are welcome as long as they align with the topic and we have time to read them.
 
 
 
-## Schedule & Reading List
+### Evaluation
+
+For students taking the seminar for 4 credits:
+
+```
+Presentation: 60%
+Participation in discussion: 40%
+```
+
+For students taking the seminar for 7 credits:
+
+```
+Presentation: 30%
+Participation in discussion: 20%
+Term paper: 50%
+```
+
+
+
+### Term paper
+
+There are two options for the term paper. If you are not sure about your topic, feel free to reach out and ask. 
+
+- A survey paper focusing on a relevant topic.
+- A replication paper that reproduces an existing paper and explores research questions not covered in the original work.
+
+Note that a survey paper does **not** meansimply summarizing several existing papers. That means, you should include your own insights into the paper. You are expected to include your own insights. For example, you can propose a taxonomy to organize relevant works, highlight research questions that are important but understudied, or suggest novel research ideas. Running experiments to support your points can be very useful, but it is not required. Including figures to provide overviews or illustrate methods is recommended to make your paper easier to follow.
+
+For the replication option, you should reproduce the method or experiments of an existing paper and investigate new research questions that were not addressed in the original work. For example, you could extend the method, design new experiments, or adapt it to a different scenario or domain. As long as you ask interesting questions and make reasonable decisions to approach them, it will be a strong term paper. This means that you are not expected to always produce positive results. Negative results can also be insightful.
+
+A typical structure for the paper may include (but is not limited to):
+
+- **Introduction**: Define the scope of your paper, the motivation to study it and the key research questions or challenges.
+- **Background**: Provide a brief literature review or background knowledge the readers need to know before diving into the main body.
+- **Main body of your survey or replication**: For the survey paper, you do not need to cover all relevant works on the topic, but you should include at least 2 or 3 important ones. You are also responsible for searching and selecting relevant papers on your own. For the replication paper, introduce what you did and report results.
+- **Discussion**: Compare methods and results (for survey papers), or analyze your findings (for replication papers). Discuss what has been addressed and what remains open.
+- **Conclusion**: Summarize the key takeaways and include potential future directions in your mind.
+
+**Format:** The term paper should be at most 8 pages, with no minimum page limit. The format can be [ACL](https://www.overleaf.com/latex/templates/acl-2023-proceedings-template/qjdgcrdwcnwp), [ICLR](https://www.overleaf.com/latex/templates/template-for-iclr-2025-conference-submission/gqzkdyycxtvt), or [NeurIPS](https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh). Reference pages are not counted.
+
+<!--**Note: Another option for the term paper is to reproduce existing methods on some reasoning tasks and play around with aspects of the method or tasks.**-->
+
+
+
+### Schedule
 
 Below is the schedule for the course. The readings are subject to change.
 
@@ -237,3 +281,6 @@ Below is the schedule for the course. The readings are subject to change.
 
 </body>
 </html>
+
+### Contact
+Please contact Yuekun (ykyao@lst.uni-saarland.de)  for any questions.
