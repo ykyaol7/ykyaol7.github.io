@@ -100,11 +100,11 @@ A typical structure for the paper may include (but is not limited to):
 
 <!--**Note: Another option for the term paper is to reproduce existing methods on some reasoning tasks and play around with aspects of the method or tasks.**-->
 
-
+ 
 
 ### Schedule
 
-Below is the schedule for the course. The readings are subject to change.
+Below is the schedule for the course. The readings are subject to change. 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -129,7 +129,7 @@ Below is the schedule for the course. The readings are subject to change.
     <tbody>
       <tr>
         <td rowspan="2">Introduction</td>
-        <td></td>
+        <td>Course Logistics</td>
         <td></td>
         <td></td>
         <td>2025-04-15</td>
@@ -263,10 +263,13 @@ Below is the schedule for the course. The readings are subject to change.
   </table>
 </div>
 
-
 </body>
 </html>
 
 ### Contact
 
 Please contact Yuekun (ykyao@lst.uni-saarland.de)  for any questions.
+
+Office: Building C7 2, R. 2.04
+
+Office hour: Wednesday 4-5pm
