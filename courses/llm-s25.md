@@ -210,7 +210,6 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2203.14465" target="_blank">STaR: Bootstrapping Reasoning With Reasoning</a>
         </td>
         <td>
-          <a href="https://arxiv.org/abs/2501.04519" target="_blank">rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking</a><br>
           <a href="https://arxiv.org/abs/2403.09629" target="_blank">Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking</a>
         </td>
         <td>2025-06-10</td>
