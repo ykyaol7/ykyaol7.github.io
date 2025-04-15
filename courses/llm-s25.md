@@ -30,6 +30,14 @@ Prior familiarity with language models, particularly transformer-based architect
 
 
 
+### Registration
+
+Please send an email to ykyao@lst.uni-saarland.de to indicate top-3 preferences of papers you are willing to present. The papers should be selected from the **Reading** column in the schedule section below. Please use the subject [LLM reasoning seminar] for your email and preferably send before April 21st.
+
+If you’d like to propose an alternative reading that fits the week’s topic, reach out early. Substitutions are welcome as long as they align with the topic and we have time to read them.
+
+
+
 ### Information
 
 **Instructor:** [Yuekun Yao](https://ykyaol7.github.io/)
@@ -47,8 +55,6 @@ Each student will take the lead for one session during the semester. As session 
 - **Engaging with the discussion**: Be ready to answer questions.  You don’t need to have all the answers, but you should know the paper well.
 
 All participants are also expected to engage actively in the discussion. You should come to each session with some interesting questions or comments to contribute.
-
-If you’d like to propose an alternative reading that fits the week’s theme, reach out early. Substitutions are welcome as long as they align with the topic and we have time to read them.
 
 
 
@@ -100,7 +106,6 @@ A typical structure for the paper may include (but is not limited to):
 
 Below is the schedule for the course. The readings are subject to change.
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,16 +114,15 @@ Below is the schedule for the course. The readings are subject to change.
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-
 <div class="container mt-4">
   <table class="table table-striped table-bordered">
     <thead class="table-dark">
       <tr>
         <th>Topic</th>
-        <th>Date</th>
+        <th>Subtopic</th>
         <th>Reading</th>
         <th>Optional</th>
+        <th>Date</th>
         <th>Discussion Leader</th>
       </tr>
     </thead>
@@ -128,61 +132,57 @@ Below is the schedule for the course. The readings are subject to change.
         <td></td>
         <td></td>
         <td></td>
+        <td>2025-04-15</td>
         <td>Yuekun</td>
       </tr>
       <tr>
         <td></td>
         <td></td>
         <td></td>
+        <td>2025-04-22</td>
         <td>Yuekun</td>
       </tr>
       <tr>
-        <td rowspan="6">Inference</td>
-        <td></td>
+        <td rowspan="5">Inference</td>
+        <td>chain-of-thought</td>
         <td>
           <a href="https://arxiv.org/abs/2201.11903" target="_blank">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a>
         </td>
         <td>
           <a href="https://arxiv.org/abs/2211.12588" target="_blank">Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks</a>
         </td>
+        <td>2025-04-29</td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td></td>
+        <td>rationale exploration</td>
         <td>
           <a href="https://arxiv.org/abs/2203.11171" target="_blank">Self-Consistency Improves Chain of Thought Reasoning in Language Models</a>
         </td>
         <td>
           <a href="https://arxiv.org/abs/2305.10601" target="_blank">Tree of Thoughts: Deliberate Problem Solving with Large Language Models</a>
         </td>
+        <td>2025-05-06</td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td></td>
-        <td>
-          <a href="https://arxiv.org/abs/2303.17651" target="_blank">Self-Refine: Iterative Refinement with Self-Feedback</a>
-        </td>
-        <td>
-          <a href="https://arxiv.org/abs/2310.01798" target="_blank">Large Language Models Cannot Self-Correct Reasoning Yet</a>
-        </td>
-        <td>TBD</td>
-      </tr>
-      <tr>
-        <td></td>
+        <td>task decomposition</td>
         <td>
           <a href="https://arxiv.org/abs/2205.10625" target="_blank">Least-to-Most Prompting Enables Complex Reasoning in Large Language Models</a>
         </td>
         <td>
           <a href="https://arxiv.org/abs/2209.15003" target="_blank">Compositional Semantic Parsing with Large Language Models</a>
         </td>
+        <td>2025-05-13</td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td></td>
+        <td>verification</td>
         <td>
           <a href="https://arxiv.org/abs/2110.14168" target="_blank">Training Verifiers to Solve Math Word Problems</a>
         </td>
         <td></td>
+        <td>2025-05-20</td>
         <td>TBD</td>
       </tr>
       <tr>
@@ -191,19 +191,21 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/pdf/2305.20050" target="_blank">Let’s Verify Step by Step</a>
         </td>
         <td></td>
+        <td>2025-05-27</td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td rowspan="2">Post-train</td>
-        <td></td>
+        <td rowspan="5">Learning</td>
+        <td>SFT</td>
         <td>
           <a href="https://arxiv.org/abs/2112.00114" target="_blank">Show Your Work: Scratchpads for Intermediate Computation with Language Models</a>
         </td>
         <td></td>
+        <td>2025-06-03</td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td></td>
+        <td>bootstrapping</td>
         <td>
           <a href="https://arxiv.org/abs/2203.14465" target="_blank">STaR: Bootstrapping Reasoning With Reasoning</a>
         </td>
@@ -211,17 +213,14 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2501.04519" target="_blank">rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking</a><br>
           <a href="https://arxiv.org/abs/2403.09629" target="_blank">Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking</a>
         </td>
+        <td>2025-06-10</td>
         <td>TBD</td>
       </tr>
       <tr>
-        <td rowspan="2">Test-time Scaling</td>
-        <td></td>
-        <td>
-          <a href="https://arxiv.org/abs/2501.12948" target="_blank">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a>
-        </td>
-        <td>
-          <a href="https://arxiv.org/abs/2411.15124" target="_blank">Tulu 3: Pushing Frontiers in Open Language Model Post-Training (Section 6)</a>
-        </td>
+        <td>reinforcement tuning</td>
+        <td><a href="https://arxiv.org/abs/2501.12948" target="_blank">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></td>
+        <td><a href="https://arxiv.org/abs/2411.15124" target="_blank">Tulu 3: Pushing Frontiers in Open Language Model Post-Training (Section 6)</a></td>
+        <td>2025-06-17</td>
         <td>TBD</td>
       </tr>
       <tr>
@@ -232,6 +231,14 @@ Below is the schedule for the course. The readings are subject to change.
         <td>
           <a href="https://arxiv.org/abs/2501.17161v1" target="_blank">SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training</a>
         </td>
+        <td>2025-06-24</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td>latent reasoning</td>
+        <td><a href="https://arxiv.org/abs/2412.06769" target="_blank">Training Large Language Models to Reason in a Continuous Latent Space</a></td>
+        <td></td>
+        <td>2025-07-01</td>
         <td>TBD</td>
       </tr>
       <tr>
@@ -241,6 +248,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2304.03843" target="_blank">Why think step by step? Reasoning emerges from the locality of experience</a>
         </td>
         <td></td>
+        <td>2025-07-08</td>
         <td>TBD</td>
       </tr>
       <tr>
@@ -249,27 +257,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2307.02477" target="_blank">Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks</a>
         </td>
         <td></td>
-        <td>TBD</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Other directions</td>
-        <td></td>
-        <td>
-          <a href="https://arxiv.org/abs/2402.16837" target="_blank">Do Large Language Models Latently Perform Multi-Hop Reasoning?</a>
-        </td>
-        <td>
-          <a href="https://arxiv.org/abs/2405.15071" target="_blank">Grokking of Implicit Reasoning in Transformers: A Mechanistic Journey to the Edge of Generalization</a>
-        </td>
-        <td>TBD</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <a href="https://arxiv.org/abs/2412.06769" target="_blank">Training Large Language Models to Reason in a Continuous Latent Space</a>
-        </td>
-        <td>
-          <a href="https://arxiv.org/abs/2405.14838" target="_blank">From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step</a>
-        </td>
+        <td>2025-07-15</td>
         <td>TBD</td>
       </tr>
     </tbody>
@@ -277,10 +265,9 @@ Below is the schedule for the course. The readings are subject to change.
 </div>
 
 
-
-
 </body>
 </html>
 
 ### Contact
+
 Please contact Yuekun (ykyao@lst.uni-saarland.de)  for any questions.
