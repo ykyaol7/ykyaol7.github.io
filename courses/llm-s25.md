@@ -136,7 +136,7 @@ Below is the schedule for the course. The readings are subject to change.
         <td>Yuekun</td>
       </tr>
       <tr>
-        <td></td>
+        <td>Overview</td>
         <td></td>
         <td></td>
         <td>2025-04-22</td>
@@ -152,7 +152,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2211.12588" target="_blank">Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks</a>
         </td>
         <td>2025-04-29</td>
-        <td>TBD</td>
+        <td>Alexander Wehner</td>
       </tr>
       <tr>
         <td>rationale exploration</td>
@@ -163,7 +163,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2305.10601" target="_blank">Tree of Thoughts: Deliberate Problem Solving with Large Language Models</a>
         </td>
         <td>2025-05-06</td>
-        <td>TBD</td>
+        <td>Zhenyu Feng</td>
       </tr>
       <tr>
         <td>task decomposition</td>
@@ -174,7 +174,7 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2209.15003" target="_blank">Compositional Semantic Parsing with Large Language Models</a>
         </td>
         <td>2025-05-13</td>
-        <td>TBD</td>
+        <td>Franka Beyer</td>
       </tr>
       <tr>
         <td>verification</td>
@@ -183,7 +183,7 @@ Below is the schedule for the course. The readings are subject to change.
         </td>
         <td></td>
         <td>2025-05-20</td>
-        <td>TBD</td>
+        <td>Sree Harsha Sunaye</td>
       </tr>
       <tr>
         <td></td>
@@ -192,7 +192,7 @@ Below is the schedule for the course. The readings are subject to change.
         </td>
         <td></td>
         <td>2025-05-27</td>
-        <td>TBD</td>
+        <td>Ümit Altar Binici</td>
       </tr>
       <tr>
         <td rowspan="5">Learning</td>
@@ -202,7 +202,7 @@ Below is the schedule for the course. The readings are subject to change.
         </td>
         <td></td>
         <td>2025-06-03</td>
-        <td>TBD</td>
+        <td>Pranav Kushare</td>
       </tr>
       <tr>
         <td>bootstrapping</td>
@@ -213,14 +213,14 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2403.09629" target="_blank">Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking</a>
         </td>
         <td>2025-06-10</td>
-        <td>TBD</td>
+        <td>Yu Yamashita</td>
       </tr>
       <tr>
         <td>reinforcement tuning</td>
         <td><a href="https://arxiv.org/abs/2501.12948" target="_blank">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></td>
         <td><a href="https://arxiv.org/abs/2411.15124" target="_blank">Tulu 3: Pushing Frontiers in Open Language Model Post-Training (Section 6)</a></td>
         <td>2025-06-17</td>
-        <td>TBD</td>
+        <td>Nadia Asmi</td>
       </tr>
       <tr>
         <td></td>
@@ -231,14 +231,14 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2501.17161v1" target="_blank">SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training</a>
         </td>
         <td>2025-06-24</td>
-        <td>TBD</td>
+        <td>Aravind Krishnan</td>
       </tr>
       <tr>
         <td>latent reasoning</td>
         <td><a href="https://arxiv.org/abs/2412.06769" target="_blank">Training Large Language Models to Reason in a Continuous Latent Space</a></td>
         <td></td>
         <td>2025-07-01</td>
-        <td>TBD</td>
+        <td>Shane John Paul</td>
       </tr>
       <tr>
         <td rowspan="2">Analysis</td>
@@ -248,7 +248,7 @@ Below is the schedule for the course. The readings are subject to change.
         </td>
         <td></td>
         <td>2025-07-08</td>
-        <td>TBD</td>
+        <td>Aleksandra Bakalova</td>
       </tr>
       <tr>
         <td></td>
@@ -257,7 +257,7 @@ Below is the schedule for the course. The readings are subject to change.
         </td>
         <td></td>
         <td>2025-07-15</td>
-        <td>TBD</td>
+        <td>Fedor Sizov</td>
       </tr>
     </tbody>
   </table>
