@@ -100,7 +100,7 @@ A typical structure for the paper may include (but is not limited to):
 
 <!--**Note: Another option for the term paper is to reproduce existing methods on some reasoning tasks and play around with aspects of the method or tasks.**-->
 
- 
+  
 
 ### Schedule
 
@@ -143,7 +143,7 @@ Below is the schedule for the course. The readings are subject to change.
         <td>Yuekun</td>
       </tr>
       <tr>
-        <td rowspan="5">Inference</td>
+        <td rowspan="6">Inference</td>
         <td>chain-of-thought</td>
         <td>
           <a href="https://arxiv.org/abs/2201.11903" target="_blank">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a>
@@ -174,7 +174,19 @@ Below is the schedule for the course. The readings are subject to change.
           <a href="https://arxiv.org/abs/2209.15003" target="_blank">Compositional Semantic Parsing with Large Language Models</a>
         </td>
         <td>2025-05-13</td>
-        <td>Franka Beyer</td>
+        <td>Franka Beyer
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <a href="https://arxiv.org/pdf/2402.10200" target="_blank">Chain-of-Thought Reasoning without Prompting</a>
+        </td>
+        <td>
+        </td>
+        <td>2025-05-13</td>
+        <td>Eva Gavaller
+        </td>
       </tr>
       <tr>
         <td>verification</td>
@@ -244,11 +256,11 @@ Below is the schedule for the course. The readings are subject to change.
         <td rowspan="2">Analysis</td>
         <td></td>
         <td>
-          <a href="https://arxiv.org/abs/2304.03843" target="_blank">Why think step by step? Reasoning emerges from the locality of experience</a>
+          <a href="https://arxiv.org/abs/2304.03843" target="_blank">Do Large Language Models Latently Perform Multi-Hop Reasoning?</a>
         </td>
         <td></td>
         <td>2025-07-08</td>
-        <td>Aleksandra Bakalova</td>
+        <td>Antonia</td>
       </tr>
       <tr>
         <td></td>
@@ -264,7 +276,7 @@ Below is the schedule for the course. The readings are subject to change.
 </div>
 
 </body>
-</html>
+</html> 
 
 ### Contact
 
