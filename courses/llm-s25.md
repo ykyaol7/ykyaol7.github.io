@@ -173,7 +173,7 @@ Below is the schedule for the course. The readings are subject to change.
         <td>
           <a href="https://arxiv.org/abs/2209.15003" target="_blank">Compositional Semantic Parsing with Large Language Models</a>
         </td>
-        <td>2025-05-13</td>
+        <td rowspan="2">2025-05-13</td>
         <td>Franka Beyer
         </td>
       </tr>
@@ -182,9 +182,7 @@ Below is the schedule for the course. The readings are subject to change.
         <td>
           <a href="https://arxiv.org/pdf/2402.10200" target="_blank">Chain-of-Thought Reasoning without Prompting</a>
         </td>
-        <td>
-        </td>
-        <td>2025-05-13</td>
+        <td></td>
         <td>Eva Gavaller
         </td>
       </tr>
