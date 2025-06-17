@@ -98,7 +98,7 @@ A typical structure for the paper may include (but is not limited to):
 
 **Format:** The term paper should be at most 8 pages, with no minimum page limit. The format can be [ACL](https://www.overleaf.com/latex/templates/acl-2023-proceedings-template/qjdgcrdwcnwp), [ICLR](https://www.overleaf.com/latex/templates/template-for-iclr-2025-conference-submission/gqzkdyycxtvt), or [NeurIPS](https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh). Reference pages are not counted.
 
-**Slides:** Here are the [slides](courses/slides/Course_Logistics.pdf) of the course logistics. 
+**Slides:** Here are the [slides](../../slides/Course_Logistics.pdf) of the course logistics. 
 
 <!--**Note: Another option for the term paper is to reproduce existing methods on some reasoning tasks and play around with aspects of the method or tasks.**-->
 
