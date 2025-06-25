@@ -100,6 +100,8 @@ A typical structure for the paper may include (but is not limited to):
 
 **Slides:** Here are the [slides](../slides/Course_Logistics.pdf) of the course logistics. 
 
+**Note:** Students who wish to write a term paper must register for the course **with 7 credits** in the **LSF system** **before the end of the lecture period (mid-July)**. The submission deadline for the term paper is **September 30**. Please make sure you register the correct version of the course.
+
 <!--**Note: Another option for the term paper is to reproduce existing methods on some reasoning tasks and play around with aspects of the method or tasks.**-->
 
   
