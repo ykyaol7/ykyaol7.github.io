@@ -25,6 +25,18 @@ My work aims to both understand model behaviours and develop more effective and 
 
 <small>2025</small>
 
+<div style="margin-bottom: 1em;"> 
+  <strong>Language models can learn implicit multi-hop reasoning, but only if they have lots of training data</strong> [<a href="https://www.arxiv.org/abs/2505.17923">paper</a>] <br>  
+  <em>Yuekun Yao, Yupei Du, Dawei Zhu, Michael Hahn, Alexander Koller</em><br> 
+  <span style="font-style: italic;">arXiv preprint arXiv:2505.17923, 2025 (Under review)</span> 
+</div> 
+
+<div style="margin-bottom: 1em;"> 
+  <strong>Reason to rote: Rethinking memorization in reasoning</strong> [<a href="https://arxiv.org/abs/2507.04782">paper</a>] <br> 
+  <em>Yupei Du, Philipp Mondorf, Silvia Casola, Yuekun Yao, Robert Litschko, Barbara Plank</em><br> 
+  <span style="font-style: italic;">Preprint, 2025 (Under review)</span> 
+</div>
+
 <div style="margin-bottom: 1em;"> <strong>Anything Goes? A Crosslinguistic Study of (Im)possible Language Learning in LMs</strong><br> <em>Xiulin Yang, Tatsuya Aoyama, Yuekun Yao, Ethan Wilcox</em><br> <span style="font-style: italic;">Preprint, 2025</span> </div>
 <small>2024</small>
 
