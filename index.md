@@ -9,7 +9,8 @@ title: Yuekun Yao
        alt="photo" 
        style="float: right; margin-left: 20px; zoom: 20%;" />
 
-Hi! I am Yuekun, and I will soon join [OSU](https://www.osu.edu/) as a postdoctoral researcher. Before that, I completed my Ph.D. in the [Department of Language Science and Technology](https://www.uni-saarland.de/en/department/lst.html) at [Saarland University](https://www.uni-saarland.de/en/home.html), where I worked with Prof. [Alexander Koller](https://www.coli.uni-saarland.de/~koller/). 
+Hi! I am Yuekun.
+I completed my Ph.D. in the [Department of Language Science and Technology](https://www.uni-saarland.de/en/department/lst.html) at [Saarland University](https://www.uni-saarland.de/en/home.html), where I worked with Prof. [Alexander Koller](https://www.coli.uni-saarland.de/~koller/). 
 I was also part of the [Computational Linguistics Group](https://www.coli.uni-saarland.de/groups/AK/). In the past, I obtained my M.Sc. degree in Artificial Intelligence at the University of Edinburgh. Before that, I earned my B.S. in Computer Science at East China Normal University.
 
 The main research question I am interested in is **How does NLP models generalize to unfamiliar data and how can we improve it?** I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. I am also interested in **trustworthiness** of NLP models to detect their generalization errors when deployed in real-world settings. 
