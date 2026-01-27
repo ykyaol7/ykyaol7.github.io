@@ -10,16 +10,17 @@ title: Yuekun Yao
        style="float: right; margin-left: 20px; zoom: 20%;" />
 
 Hi! I am Yuekun.
+I am currently a postdoctoral researcher at The Ohio State University, working with Prof. [Huan Sun](https://cse.osu.edu/people/sun.397).
 I completed my Ph.D. in the [Department of Language Science and Technology](https://www.uni-saarland.de/en/department/lst.html) at [Saarland University](https://www.uni-saarland.de/en/home.html), where I worked with Prof. [Alexander Koller](https://www.coli.uni-saarland.de/~koller/). 
 I was also part of the [Computational Linguistics Group](https://www.coli.uni-saarland.de/groups/AK/). In the past, I obtained my M.Sc. degree in Artificial Intelligence at the University of Edinburgh. Before that, I earned my B.S. in Computer Science at East China Normal University.
 
-The main research question I am interested in is **How does NLP models generalize to unfamiliar data and how can we improve it?** I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. I am also interested in **trustworthiness** of NLP models to detect their generalization errors when deployed in real-world settings. 
+The main research question I am interested in is **How does NLP models generalize to unfamiliar data and how can we improve it?** I investigate **out-of-distribution generalization** with a focus on **compositional generalization** to bridge the gap between training and test distributions in realistic applications. 
 
 My work aims to both understand model behaviours and develop more effective and reliable NLP models through the following research questions.
 
-- Can NLP models perform human-like generalization, and why? [[1]](https://aclanthology.org/2022.emnlp-main.337/) Does this also apply to large language models? [[2]](https://aclanthology.org/2023.emnlp-main.194/)
-- How to improve models' compositional generalization ability with general-purpose models (seq2seq)? [[3]](https://arxiv.org/abs/2401.09815)
-- How to build trustworthy models that generalize reliably? Can we train one model (discriminator) to judge the outputs of another model (parser)? [[4]](https://arxiv.org/abs/2311.09422)
+- Can NLP models or LLMs perform human-like generalization, and why? [[1]](https://aclanthology.org/2022.emnlp-main.337/), [[2]](https://aclanthology.org/2023.emnlp-main.194/) [[3]](https://www.arxiv.org/abs/2505.17923)
+- How to improve models' compositional generalization ability? [[4]](https://arxiv.org/abs/2401.09815)
+- How to build trustworthy models that generalize reliably? Can we train one model (discriminator) to judge the outputs of another model (parser)? [[5]](https://arxiv.org/abs/2311.09422)
 
 
 
