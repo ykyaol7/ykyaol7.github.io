@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+  <!-- Website verification -->
+  
+    <meta name="google-site-verification" content="google82a3ac94e548da3d.html">
+  
+  
+  <!--
+    Avoid warning on Google Chrome Error with Permissions-Policy header:
+    Origin trial controlled feature not enabled: 'interest-cohort'.
+    see https://stackoverflow.com/a/75119417
+  -->
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Reasoning with LLMs (UdS; Summer 2025/26) | Yuekun Yao
+    
+  
+</title>
+<meta name="author" content="Yuekun Yao">
+<meta name="description" content="Seminar on reasoning with large language models, covering inference, learning, and analysis.">
+
+  <meta name="keywords" content="nlp, machine learning, compositional generalization, out-of-distribution generalization, large language models">
+
+
+
+
+
+
+
+
+
+
+<!-- Security: Content Security Policy -->
+<!-- Permissive CSP suitable for academic websites. Allows external images, videos, and common embed services. -->
+<!-- To customize for your needs, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;">
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%A0&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://ykyaol7.github.io/teachings/reasoning-with-llms/">
+
+
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Yuekun</span>
+            
+            
+            Yao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/teaching/">teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/talks/">Invited talks
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Reasoning with LLMs (UdS; Summer 2025/26)</h1>
+    <p class="post-description">Seminar on reasoning with large language models, covering inference, learning, and analysis.</p>
+  </header>
+
+  <article>
+    <div class="course">
+  
+    <div class="course-info">
+      
+        <p><strong>Instructor:</strong> Yuekun Yao</p>
+      
+
+      
+        <p><strong>Term:</strong> Summer</p>
+      
+
+      
+
+      
+    </div>
+  
+
+  <h2 id="course-description">Course Description</h2>
+
+<p>Large language models are now capable of a wide range of human-like tasks, but reasoning, planning, and systematic generalization remain major open problems. This seminar surveys recent work on reasoning with LLMs, including prompting strategies, verification, learning-based approaches, and analyses of what these models are actually doing.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Students should have a solid background in NLP and machine learning. Familiarity with language models, transformer architectures, in-context learning, and supervised fine-tuning is assumed.</p>
+
+<h2 id="registration">Registration</h2>
+
+<p>Please contact me by email if you are interested in presenting a paper. Students should indicate their top paper preferences from the schedule readings.</p>
+
+<h2 id="course-format">Course Format</h2>
+
+<p>The seminar is discussion-driven. Each week we focus on one or more recent papers. Students are expected to come prepared to discuss the central ideas, assumptions, limitations, and open questions.</p>
+
+<p>Each participant leads one session during the semester. Session leaders should:</p>
+
+<ul>
+  <li>present the paper’s main goal, method, and contributions;</li>
+  <li>raise discussion points about strengths, weaknesses, and implications;</li>
+  <li>engage actively with questions from the group.</li>
+</ul>
+
+<h2 id="evaluation">Evaluation</h2>
+
+<p>For students taking the seminar for 4 credits:</p>
+
+<ul>
+  <li>Presentation: 60%</li>
+  <li>Participation in discussion: 40%</li>
+</ul>
+
+<p>For students taking the seminar for 7 credits:</p>
+
+<ul>
+  <li>Presentation: 30%</li>
+  <li>Participation in discussion: 20%</li>
+  <li>Term paper: 50%</li>
+</ul>
+
+<h2 id="term-paper">Term Paper</h2>
+
+<p>Students taking the 7-credit version may write either a survey paper or a replication paper. The expected paper length is at most 8 pages in ACL, ICLR, or NeurIPS format, excluding references.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>Please email <code class="language-plaintext highlighter-rouge">ykyao.cs@gmail.com</code> with questions about the seminar.</p>
+
+
+  
+    <h2>Schedule</h2>
+    <table class="table table-sm table-responsive">
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Date</th>
+          <th>Topic</th>
+          <th>Materials</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr>
+            <td>1</td>
+            <td>2025-04-15</td>
+            <td>
+              
+                <strong>Course logistics</strong>
+              
+              
+            </td>
+            <td>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>2</td>
+            <td>2025-04-22</td>
+            <td>
+              
+                <strong>Overview</strong>
+              
+              
+            </td>
+            <td>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>3</td>
+            <td>2025-04-29</td>
+            <td>
+              
+                <strong>Chain-of-thought prompting</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2201.11903" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2211.12588" target="_blank" rel="external nofollow noopener">Optional</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>4</td>
+            <td>2025-05-06</td>
+            <td>
+              
+                <strong>Rationale exploration</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2203.11171" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2305.10601" target="_blank" rel="external nofollow noopener">Optional</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>5</td>
+            <td>2025-05-13</td>
+            <td>
+              
+                <strong>Task decomposition</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2205.10625" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2209.15003" target="_blank" rel="external nofollow noopener">Optional</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>6</td>
+            <td>2025-05-13</td>
+            <td>
+              
+                <strong>Chain-of-thought reasoning without prompting</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/pdf/2402.10200" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>7</td>
+            <td>2025-05-20</td>
+            <td>
+              
+                <strong>Verification</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2110.14168" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>8</td>
+            <td>2025-05-27</td>
+            <td>
+              
+                <strong>Step-by-step verification</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/pdf/2305.20050" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>9</td>
+            <td>2025-06-03</td>
+            <td>
+              
+                <strong>Supervised fine-tuning</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2112.00114" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>10</td>
+            <td>2025-06-10</td>
+            <td>
+              
+                <strong>Bootstrapping</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2203.14465" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2403.09629" target="_blank" rel="external nofollow noopener">Optional</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>11</td>
+            <td>2025-06-17</td>
+            <td>
+              
+                <strong>Reinforcement tuning</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2501.12948" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2411.15124" target="_blank" rel="external nofollow noopener">Optional</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>12</td>
+            <td>2025-06-24</td>
+            <td>
+              
+                <strong>Test-time scaling</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2501.19393" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2501.17161" target="_blank" rel="external nofollow noopener">Optional</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>13</td>
+            <td>2025-07-01</td>
+            <td>
+              
+                <strong>Latent reasoning</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2412.06769" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>14</td>
+            <td>2025-07-08</td>
+            <td>
+              
+                <strong>Multi-hop reasoning analysis</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2304.03843" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <td>15</td>
+            <td>2025-07-15</td>
+            <td>
+              
+                <strong>Reasoning or reciting?</strong>
+              
+              
+            </td>
+            <td>
+              
+                <ul class="schedule-materials">
+                  
+                    <li>
+                      
+                        
+                          <a href="https://arxiv.org/abs/2307.02477" target="_blank" rel="external nofollow noopener">Reading</a>
+                        
+                      
+                    </li>
+                  
+                </ul>
+              
+            </td>
+          </tr>
+        
+      </tbody>
+    </table>
+  
+</div>
+
+  </article>
+
+  
+
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2026
+  Yuekun
+  
+  Yao. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+  
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?v=ccc841c459bfc0e64c1c2b5acd10df02"></script>
+
+
+
+
+  </body>
+</html>
